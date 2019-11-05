@@ -3,6 +3,7 @@ import { readdir as _readdir } from 'fs'
 import { promisify } from 'util'
 import { load as loadJSON } from 'unlib.js/build/JSON'
 import { CoverageData } from '../CoverageData'
+import { GCOVData } from './GCOVData'
 import Importer, { CoverageAndResult } from '../Importer'
 const readdir = promisify(_readdir)
 

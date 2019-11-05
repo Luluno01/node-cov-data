@@ -4,7 +4,7 @@
  * See [gcc-gnu.org](https://gcc.gnu.org/onlinedocs/gcc/Invoking-Gcov.html)
  * for more details
  */
-interface GCOVData {
+export interface GCOVData {
   /**
    * Working directory where a compilation unit was compiled
    */
@@ -24,7 +24,7 @@ interface GCOVData {
   files: GCOVFileDetail[]
 }
 
-interface GCOVFileDetail {
+export interface GCOVFileDetail {
   /**
    * Name of the source file
    */
@@ -33,7 +33,7 @@ interface GCOVFileDetail {
   lines: GCOVLineDetail[]
 }
 
-interface GCOVFunctionDetail {
+export interface GCOVFunctionDetail {
   /**
    * Number of blocks that are in the function
    */
@@ -72,7 +72,7 @@ interface GCOVFunctionDetail {
   start_line: number
 }
 
-interface GCOVLineDetail {
+export interface GCOVLineDetail {
   /**
    * Branches are present only with `-b` option
    */
@@ -97,7 +97,7 @@ interface GCOVLineDetail {
   function_name?: string | null
 }
 
-interface GCOVBranchDetail {
+export interface GCOVBranchDetail {
   /**
    * Number of executions of the branch
    */
