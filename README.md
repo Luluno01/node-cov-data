@@ -4,7 +4,9 @@ Unified code coverage data.
 
 ## Supported Data
 
-[*] GCOV (C/C++) - JSON
-[ ] χsuds (C/C++ ?)
-[ ] coverage (JavaScript)
-[ ] Coverage.py (Python)
+- [x] GCOV (C/C++) - JSON
+- [ ] χsuds (C/C++ ?)
+- [ ] coverage (JavaScript)
+- [ ] JCov (Java)
+- [ ] JaCoCo (Kotlin/Java)
+- [ ] Coverage.py (Python)
