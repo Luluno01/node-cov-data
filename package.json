@@ -1,0 +1,20 @@
+{
+  "name": "cov-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "install": "tsc"
+  },
+  "author": "Untitled",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.6.4",
+    "unlib.js": "git+https://github.com/Luluno01/unlib.js.git"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.5"
+  }
+}
